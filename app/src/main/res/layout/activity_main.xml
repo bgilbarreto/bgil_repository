@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/desing"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="102dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:text="¡Pedido Exitoso!"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textSize="26dp"
+        android:textColor="#064E50"
+        android:background="@drawable/f_text"
+        />
+
+    <Button
+        android:id="@+id/ver_detalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="300dp"
+        android:background="@drawable/button_one"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="400dp"
+        android:text="VER  DETALLE"
+        android:textColor="#054143"
+        />
+
+    <Button
+        android:id="@+id/ver_finalizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/button_ver"
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor_absoluteY="400dp"
+        android:text="FINALIZAR"
+        android:textColor="#C5EBEC"
+        />
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        tools:layout_editor_absoluteX="130"
+        tools:layout_editor_absoluteY="167"
+        android:src="@drawable/delivery"
+        />
+
+</android.support.constraint.ConstraintLayout>
